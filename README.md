@@ -40,6 +40,9 @@ This project analyzes customer purchasing behavior, performs customer segmentati
 - Used K-Means clustering to group customers into segments
 - Identified high-value, regular, and at-risk customer groups
 
+![Customer Segments](https://github.com/GayathriiRamesh/Customer-Segmentation-and-Churn-Analysis/blob/36d97e75331f7edd7e3b1f3a048068d458831ca7/images/customer_segments.png.png)
+- Visualizes customer groups (high-value, regular, at-risk)
+
 ### Churn Prediction
 - Defined churn based on customer inactivity and low purchase frequency
 - Built a Random Forest classification model to predict churn
@@ -59,6 +62,13 @@ This project analyzes customer purchasing behavior, performs customer segmentati
 ## Model Performance and Limitations
 
 The churn prediction model achieved an accuracy of approximately 84%, demonstrating strong overall performance.
+
+## Results Visualization  
+
+### Confusion Matrix
+![Confusion Matrix](https://github.com/GayathriiRamesh/Customer-Segmentation-and-Churn-Analysis/blob/36d97e75331f7edd7e3b1f3a048068d458831ca7/images/confusion_matrix.png.png)
+
+- Shows model performance in predicting churn vs non-churn customers
 
 ### Performance Insights
 - The model performs well in identifying non-churn customers
