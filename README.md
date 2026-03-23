@@ -89,26 +89,26 @@ The churn prediction model achieved an accuracy of approximately 84%, demonstrat
 
 ## Project Structure
 ```
-customer_segmentation_churn/
+customer_segmentation_and_churn_analysis/
 │
 ├── data/
-│ ├── online_retail.csv
-│ ├── cleaned_data.csv
-│ └── rfm_data.csv
+│   ├── online_retail.csv
+│   ├── cleaned_data.csv
+│   └── rfm_data.csv
 │
-├── notebook/
-│ ├── 01_Data_Understanding.ipynb
-│ ├── 02_Exploratory_Data_Analysis.ipynb
-│ ├── 03_customer_segmentation.ipynb
-│ └── 04_retention_analysis.ipynb
+├── notebooks/
+│   ├── 01_Data_Understanding.ipynb
+│   ├── 02_Exploratory_Data_Analysis.ipynb
+│   ├── 03_customer_segmentation.ipynb
+│   └── 04_retention_analysis.ipynb
 │
-├── .gitignore
-└── README.md
+├── images/
+│   ├── confusion_matrix.png
+│   └── customer_segments.png
+│
+├── README.md
+└── .gitignore
 ```
-
-## Dataset
-The dataset used in this project is available in the data/ folder, including raw, cleaned, and RFM-transformed data used across different stages of the analysis.
-
 ## Conclusion
 This project demonstrates how customer data can be used to generate actionable insights through analysis, segmentation, and churn prediction. It highlights the value of RFM-based segmentation in understanding customer behavior and supporting retention strategies.
 
